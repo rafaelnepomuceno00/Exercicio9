@@ -7,13 +7,20 @@ package Questão1;
 
 
 public class Ave extends Animal{
-    private boolean Voa;
+        private boolean Voa;
     
     public boolean getVoa(){
-    return this.Voa;
+        return this.Voa;
     }
     public void setVoa(boolean a){
         this.Voa = a;
     }
+    public Ave(String n, boolean v){
+        super(n);   
+        this.Voa =v;
+    }
     
+     public void talk(){
+        System.out.println("Piu Piu");
+    }  
 }

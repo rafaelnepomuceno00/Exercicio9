@@ -15,9 +15,13 @@ public class Animal {
     public void setNomeAnimal(String n){
     this.NomeAnimal = n;
     }
-    public void imprime(){
-        System.err.println("nome" +this.getNomeAnimal());
+    public Animal (String n){
+    this.setNomeAnimal(n);
     }
-    
+            
+    public void imprime (){
+        System.out.println("nome" +this.getNomeAnimal());
+    }
+  
     void talk(){}
 }   

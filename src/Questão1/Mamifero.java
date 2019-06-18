@@ -6,7 +6,7 @@
 package Questão1;
 
 
-public class Mamifero extends Animal{
+public abstract class Mamifero extends Animal{
     private int Patas;
 
     public int getPatas() {
@@ -21,4 +21,8 @@ public class Mamifero extends Animal{
         super(n);
         this.setPatas(p);
     }
+
+   
+    public abstract void talk();
+    
 }

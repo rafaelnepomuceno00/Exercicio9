@@ -20,8 +20,8 @@ public class Vaca extends Mamifero{
     public boolean xTemLeite(){
         return true;
     }
-    
-    public void Talk(){
+
+    public void talk(){
         System.out.println("Muuuuu");
     }
     

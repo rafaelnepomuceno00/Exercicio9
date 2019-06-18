@@ -25,6 +25,6 @@ public class TestaAnimais {
         
         Vaca v1 = new Vaca("Pachola", 4, true);
         v1.imprime();
-        v1.Talk();
+        v1.talk();
     }   
 }

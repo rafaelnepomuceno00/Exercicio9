@@ -6,7 +6,7 @@
 package Questão1;
 
 
-public class Animal {
+public abstract class Animal {
     private String NomeAnimal;
     
     public String getNomeAnimal(){
@@ -23,5 +23,5 @@ public class Animal {
         System.out.println("nome" +this.getNomeAnimal());
     }
   
-    void talk(){}
+    public abstract void talk();
 }   

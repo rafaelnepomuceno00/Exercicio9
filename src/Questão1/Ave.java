@@ -6,7 +6,7 @@
 package Questão1;
 
 
-public class Ave extends Animal{
+public abstract class Ave extends Animal{
         private boolean Voa;
     
     public boolean getVoa(){
